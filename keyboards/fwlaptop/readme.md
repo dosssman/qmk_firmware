@@ -14,3 +14,7 @@ To compile the default firmware:
 `make fwlaptop/ergo_v0:default`
 To flash the default firmware:
 `make fwlaptop/ergo_v0:default:flash`
+
+## Acknowledgement
+- BastardKB's code for Scylla was used as reference.
+- TODO: link the article that shows how to get started with a keyboard easily.
