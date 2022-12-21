@@ -12,3 +12,5 @@ No warranty provided with this code.
 
 To compile the default firmware:
 `make fwlaptop/ergo_v0:default`
+To flash the default firmware:
+`make fwlaptop/ergo_v0:default:flash`

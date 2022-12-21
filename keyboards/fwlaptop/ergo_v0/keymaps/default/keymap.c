@@ -32,33 +32,33 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     // ├─────────────────────────────────────────────────────────┤       ├──────────────────────────────────────────────────────────────┤
            KC_LCTL,   KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,                KC_N,    KC_M, KC_COMM,  KC_DOT,  KC_SLSH,    KC_RCTL,
     // ├─────────────────────────────────────────────────────────┤       ├──────────────────────────────────────────────────────────────┤
-                   KC_LALT, KC_LGUI,  LTK(1),  KC_SPC,    KC_NO,            KC_BSPC,  KC_ENT,  LTK(1), KC_RALT,   KC_NO
+                   KC_LALT, KC_LGUI,  LTK(1),  KC_SPC,   KC_NO,             KC_BSPC,  KC_ENT,  LTK(1), KC_RALT,    KC_NO
     //╰─────────────────────────────────────────────────────────╯      ╰─────────────────────────────────────────────────────────────╯
     ),
     [1] = LAYOUT(
     // ╭────────────────────────────────────────────────────────╮      ╭──────────────────────────────────────────────────────────────╮
-           KC_F12,   KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,               KC_F6,   KC_F7,   KC_F8,   KC_F9,  KC_F10,    KC_F11,
+           KC_F12,   KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,               KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,    KC_F11,
     // ├─────────────────────────────────────────────────────────├       ├──────────────────────────────────────────────────────────────┤
-           KC_GRV, KC_BTN4, KC_BTN2,   KC_UP, KC_BTN1, KC_LBRC,             KC_LBRC, KC_BTN1, KC_BTN3, KC_BTN2, KC_TRNS,    KC_EQL,
+           KC_GRV, KC_BTN4, KC_BTN2,   KC_UP, KC_BTN1, KC_LBRC,             KC_LBRC, KC_BTN1, KC_BTN3, KC_BTN2,  KC_TRNS,    KC_EQL,
     // ├─────────────────────────────────────────────────────────├       ├──────────────────────────────────────────────────────────────┤
-          KC_TRNS, KC_BTN3, KC_LEFT, KC_DOWN,KC_RIGHT,   KC_NO,             KC_LEFT, KC_DOWN,   KC_UP,KC_RIGHT, KC_BSLS,   KC_TRNS,
+          KC_TRNS, KC_BTN3, KC_LEFT, KC_DOWN,KC_RIGHT,   KC_NO,             KC_LEFT, KC_DOWN,   KC_UP,KC_RIGHT,  KC_BSLS,   KC_TRNS,
     // ├─────────────────────────────────────────────────────────┤       ├──────────────────────────────────────────────────────────────┤
-          KC_TRNS, KC_BTN5, KC_PGDN,  KC_DOT, KC_PGUP, KC_HOME,              KC_END, KC_LALT,  KC_SPC,   KC_NO,   KC_NO,   KC_TRNS,
+          KC_TRNS, KC_BTN5, KC_PGDN,  KC_DOT, KC_PGUP, KC_HOME,              KC_END, KC_LALT,  KC_SPC,   KC_NO,    KC_NO,   KC_TRNS,
     // ├─────────────────────────────────────────────────────────┤       ├──────────────────────────────────────────────────────────────┤
-                     KC_NO, KC_TRNS,   KC_NO,  LTK(2),   KC_NO,              KC_DEL,  LTK(2),   KC_NO, KC_RALT,   KC_NO
+                     KC_NO, KC_TRNS,   KC_NO,  LTK(2),   KC_NO,              KC_DEL,  LTK(2),   KC_NO, KC_RALT,    KC_NO
     //╰─────────────────────────────────────────────────────────╯      ╰─────────────────────────────────────────────────────────────╯
     ),
     [2] = LAYOUT(
     // ╭────────────────────────────────────────────────────────╮      ╭──────────────────────────────────────────────────────────────╮
-            KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,               KC_NO,  KC_NO,   KC_NO,   KC_NO,    KC_NO,   EE_CLR,
+            KC_NO, KC_MUTE, KC_VOLD, KC_VOLU,   KC_NO,   KC_NO,               KC_NO, KC_BRIU, KC_BRID,   KC_NO,    KC_NO,    EE_CLR,
     // ├─────────────────────────────────────────────────────────├       ├──────────────────────────────────────────────────────────────┤
-          KC_CAPS,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,               KC_NO,  KC_NO,   KC_NO,   KC_NO,    KC_NO,    KC_NO,
+          KC_CAPS,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,               KC_NO,   KC_NO,   KC_NO,   KC_NO,    KC_NO,     KC_NO,
     // ├─────────────────────────────────────────────────────────├       ├──────────────────────────────────────────────────────────────┤
-          KC_TRNS,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,               KC_NO,  KC_NO,   KC_NO,   KC_NO,    KC_NO,  KC_TRNS,
+          KC_TRNS,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,               KC_NO,   KC_NO,   KC_NO,   KC_NO,    KC_NO,   KC_TRNS,
     // ├─────────────────────────────────────────────────────────┤       ├──────────────────────────────────────────────────────────────┤
-          KC_TRNS,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,               KC_NO,  KC_NO,   KC_NO,   KC_NO,    KC_NO,  KC_TRNS,
+          KC_TRNS,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,               KC_NO,   KC_NO,   KC_NO,   KC_NO,    KC_NO,   KC_TRNS,
     // ├─────────────────────────────────────────────────────────┤       ├──────────────────────────────────────────────────────────────┤
-                     KC_NO,   KC_NO,   KC_NO,   KC_NO, QK_BOOT,             QK_BOOT,  KC_NO,   KC_NO,   KC_NO,    KC_NO
+                     KC_NO,   KC_NO,   KC_NO,   KC_NO, QK_BOOT,             QK_BOOT,   KC_NO,   KC_NO,   KC_NO,    KC_NO
     //╰─────────────────────────────────────────────────────────╯      ╰─────────────────────────────────────────────────────────────╯
     )
 };
