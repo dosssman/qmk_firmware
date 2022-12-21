@@ -1,0 +1,8 @@
+{
+    "manufacturer": "dosssman",
+    "maintainer": "dosssman",
+    "url": "",
+    "usb": {
+        "vid": "0xFEED"
+    }
+}
