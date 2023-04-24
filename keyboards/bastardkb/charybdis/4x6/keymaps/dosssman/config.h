@@ -25,8 +25,9 @@
 #    define RGB_MATRIX_MAXIMUM_BRIGHTNESS 64
 
 // Rainbow swirl as startup mode.
-#    define ENABLE_RGB_MATRIX_CYCLE_LEFT_RIGHT
-#    define RGB_MATRIX_STARTUP_MODE RGB_MATRIX_CYCLE_LEFT_RIGHT
+// Charybdis' default
+// #    define ENABLE_RGB_MATRIX_CYCLE_LEFT_RIGHT
+// #    define RGB_MATRIX_STARTUP_MODE RGB_MATRIX_CYCLE_LEFT_RIGHT
 
 // Slow swirl at startup.
 #    define RGB_MATRIX_STARTUP_SPD 64 // Default: 32
@@ -44,6 +45,10 @@
 // Typing related RGB matrix setings
 #    define ENABLE_RGB_MATRIX_SPLASH
 #    define ENABLE_RGB_MATRIX_SOLID_SPLASH
+
+// dosssman's override: startup default
+#    define RGB_MATRIX_STARTUP_MODE RGB_MATRIX_BREATHING
+
 #endif  // RGB_MATRIX_ENABLE
 
 /* Trackball angle adjustment override. */
@@ -74,7 +79,7 @@
 #ifdef CHARYBDIS_SNIPING_DPI_CONFIG_STEP
     #undef CHARYBDIS_SNIPING_DPI_CONFIG_STEP
     #define CHARYBDIS_SNIPING_DPI_CONFIG_STEP 100
-#endif 
+#endif
 
 // Charybdis custom keycodes extension for drag scroll and sniping modeS
 /*
