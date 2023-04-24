@@ -3,7 +3,6 @@
 
 typedef union {
   uint32_t raw;
-  uint32_t current_layer;
   struct {
     bool     rgb_layer_change :1;
   };
@@ -47,7 +46,7 @@ layer_state_t layer_state_set_user(layer_state_t state) {
         break;
     case LAYER_3 ... LAYER_5:
         if (user_config.rgb_layer_change) {
-            rgblight_sethsv_noeeprom(HSV_GREEN);
+            rgblight_sethsv_noeeprom(HSV_SPRINGGREEN);
             rgb_matrix_set_speed_noeeprom(LAYERS_EFFECT_SPEEDS[curr_layer % 3]);
         }
         break;
