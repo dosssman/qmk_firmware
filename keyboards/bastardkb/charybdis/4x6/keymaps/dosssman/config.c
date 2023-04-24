@@ -51,18 +51,13 @@ layer_state_t layer_state_set_user(layer_state_t state) {
             rgb_matrix_set_speed_noeeprom(LAYERS_EFFECT_SPEEDS[curr_layer % 3]);
         }
         break;
-    // default: //  for any other layers, or the default layer
-    //     if (user_config.rgb_layer_change) {
-    //         if (curr_layer == LAYER_0) {
-    //             rgblight_sethsv(HSV_CYAN);
-    //         }
-    //         else if (curr_layer == LAYER_3) {
-    //             rgblight_sethsv(HSV_GREEN);
-    //         }
-    //         // rgblight_mode_noeeprom(RGB_MATRIX_BREATHING);
-    //         // rgb_matrix_set_speed_noeeprom(LAYERS_EFFECT_SPEEDS[0]);
-    //     }
-    //     break;
+    default: //  for any other layers, or the default layer
+        if (user_config.rgb_layer_change) {
+            rgblight_sethsv_noeeprom(HSV_CYAN);
+            rgblight_mode_noeeprom(RGB_MATRIX_BREATHING);
+            rgb_matrix_set_speed_noeeprom(LAYERS_EFFECT_SPEEDS[0]);
+        }
+        break;
     }
   return state;
 }
