@@ -293,7 +293,7 @@
       "KC_DEL",
       "ANY(SNP_TOG)",
       "KC_ENT",
-      "KC_NO",
+      "LT(5,KC_NO)",
       "LT(5,KC_NO)"
     ],
     [
