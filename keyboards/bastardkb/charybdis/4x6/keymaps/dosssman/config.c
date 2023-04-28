@@ -10,9 +10,9 @@ typedef union {
 
 user_config_t user_config;
 
-#define LAYER_0 0 // Base layer 0 for work / productivity
-#define LAYER_1 1 // Base layer 1 for work / productivity
-#define LAYER_2 2 // Base layer 2 for work / productivity
+#define LAYER_0 0 // Base layer 0 for general usage
+#define LAYER_1 1 // Base layer 1 for general usage
+#define LAYER_2 2 // Base layer 2 for general usage
 #define LAYER_3 3 // PAT || RTS focused base layer 0
 #define LAYER_4 4 // PAT || RTS focused layer 1
 #define LAYER_5 5 // PAT || RTS focused layer 2
