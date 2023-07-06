@@ -39,24 +39,24 @@ layer_state_t layer_state_set_user(layer_state_t state) {
 
     switch (curr_layer) {
     case LAYER_0 ... LAYER_2:
-        if (user_config.rgb_layer_change) {
-            rgblight_sethsv_noeeprom(HSV_CYAN);
-            rgb_matrix_set_speed_noeeprom(LAYERS_EFFECT_SPEEDS[curr_layer % 3]);
-        };
-        break;
+      if (user_config.rgb_layer_change) {
+        rgblight_sethsv_noeeprom(HSV_CYAN);
+        // rgb_matrix_set_speed_noeeprom(LAYERS_EFFECT_SPEEDS[curr_layer % 3]);
+      };
+      break;
     case LAYER_3 ... LAYER_5:
-        if (user_config.rgb_layer_change) {
-            rgblight_sethsv_noeeprom(HSV_SPRINGGREEN);
-            rgb_matrix_set_speed_noeeprom(LAYERS_EFFECT_SPEEDS[curr_layer % 3]);
-        }
-        break;
+      if (user_config.rgb_layer_change) {
+        rgblight_sethsv_noeeprom(HSV_SPRINGGREEN);
+        // rgb_matrix_set_speed_noeeprom(LAYERS_EFFECT_SPEEDS[curr_layer % 3]);
+      }
+      break;
     default: //  for any other layers, or the default layer
-        if (user_config.rgb_layer_change) {
-            rgblight_sethsv_noeeprom(HSV_CYAN);
-            rgblight_mode_noeeprom(RGB_MATRIX_BREATHING);
-            rgb_matrix_set_speed_noeeprom(LAYERS_EFFECT_SPEEDS[0]);
-        }
-        break;
+      if (user_config.rgb_layer_change) {
+        rgblight_sethsv_noeeprom(HSV_CYAN);
+        rgblight_mode_noeeprom(RGB_MATRIX_BREATHING);
+        // rgb_matrix_set_speed_noeeprom(LAYERS_EFFECT_SPEEDS[0]); // Maintain same effect speed across layer groups
+      }
+      break;
     }
   return state;
 }
