@@ -3,7 +3,7 @@
   "notes": "",
   "version": 1,
   "keyboard": "bastardkb/charybdis/4x6/v2/elitec",
-  "keymap": "bastardkb_charybdis_4x6_v2_elitec_dosssman_rts_fps",
+  "keymap": "dosssman",
   "layout": "LAYOUT",
   "layers": [
     [
@@ -125,7 +125,7 @@
     [
       "KC_NO",
       "TG(3)",
-      "KC_NO",
+      "TG(6)",
       "KC_NO",
       "KC_NO",
       "KC_NO",
@@ -180,7 +180,6 @@
       "KC_NO",
       "KC_NO"
     ],
-
     [
       "KC_ESC",
       "KC_1",
@@ -299,8 +298,8 @@
     ],
     [
       "KC_NO",
-      "TG(3)",
-      "KC_NO",
+      "TG(0)",
+      "TG(6)",
       "KC_NO",
       "KC_NO",
       "KC_NO",
@@ -355,7 +354,6 @@
       "KC_NO",
       "KC_NO"
     ],
-
     [
       "KC_ESC",
       "KC_1",
@@ -406,21 +404,21 @@
       "KC_SLSH",
       "KC_RCTL",
       "KC_LGUI",
-      "LT(1,KC_NO)",
+      "LT(7,KC_NO)",
       "KC_LALT",
       "KC_BSPC",
-      "LT(1,KC_NO)",
+      "LT(7,KC_NO)",
       "KC_SPC",
       "KC_ENT",
       "KC_ENT"
     ],
     [
       "KC_F12",
-      "KC_F1",
-      "KC_F2",
-      "KC_F3",
-      "KC_F4",
-      "KC_F5",
+      "KC_6",
+      "KC_7",
+      "KC_8",
+      "KC_9",
+      "KC_0",
       "KC_F6",
       "KC_F7",
       "KC_F8",
@@ -428,10 +426,10 @@
       "KC_F10",
       "KC_F11",
       "KC_GRV",
-      "MS_BTN4",
-      "MS_BTN2",
+      "KC_P",
+      "KC_O",
       "KC_UP",
-      "MS_BTN1",
+      "KC_U",
       "KC_LBRC",
       "KC_RBRC",
       "MS_BTN1",
@@ -440,11 +438,11 @@
       "KC_TRNS",
       "KC_EQL",
       "KC_TRNS",
-      "MS_BTN3",
+      "KC_SCLN",
       "KC_LEFT",
       "KC_DOWN",
       "KC_RGHT",
-      "ANY(DRGSCRL)",
+      "KC_H",
       "KC_LEFT",
       "KC_DOWN",
       "KC_UP",
@@ -452,7 +450,7 @@
       "KC_BSLS",
       "KC_TRNS",
       "KC_TRNS",
-      "MS_BTN5",
+      "KC_SLSH",
       "KC_PGDN",
       "KC_DOT",
       "KC_PGUP",
@@ -469,13 +467,13 @@
       "KC_DEL",
       "ANY(SNP_TOG)",
       "KC_ENT",
-      "LT(2,KC_NO)",
-      "LT(2,KC_NO)"
+      "LT(8,KC_NO)",
+      "LT(8,KC_NO)"
     ],
     [
       "KC_NO",
       "TG(3)",
-      "KC_NO",
+      "TG(0)",
       "KC_NO",
       "KC_NO",
       "KC_NO",
