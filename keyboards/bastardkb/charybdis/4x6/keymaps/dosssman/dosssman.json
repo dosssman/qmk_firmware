@@ -56,10 +56,10 @@
       "KC_SLSH",
       "KC_RCTL",
       "KC_LGUI",
-      "LT(1,KC_NO)",
+      "MO(1)",
       "KC_LALT",
       "KC_BSPC",
-      "LT(1,KC_NO)",
+      "MO(1)",
       "KC_SPC",
       "KC_ENT",
       "KC_ENT"
@@ -119,13 +119,13 @@
       "KC_DEL",
       "ANY(SNP_TOG)",
       "KC_ENT",
-      "LT(2,KC_NO)",
-      "LT(2,KC_NO)"
+      "MO(2)",
+      "MO(2)"
     ],
     [
       "KC_NO",
-      "TG(3)",
-      "TG(6)",
+      "TO(3)",
+      "TO(6)",
       "KC_NO",
       "KC_NO",
       "KC_NO",
@@ -230,10 +230,10 @@
       "KC_SLSH",
       "KC_RCTL",
       "KC_LALT",
-      "LT(4,KC_NO)",
+      "MO(4)",
       "KC_LCTL",
       "KC_BSPC",
-      "LT(4,KC_NO)",
+      "MO(4)",
       "KC_SPC",
       "KC_LSFT",
       "KC_ENT"
@@ -293,13 +293,13 @@
       "KC_DEL",
       "ANY(SNP_TOG)",
       "KC_ENT",
-      "LT(5,KC_NO)",
-      "LT(5,KC_NO)"
+      "MO(5)",
+      "MO(5)"
     ],
     [
       "KC_NO",
-      "TG(0)",
-      "TG(6)",
+      "TO(0)",
+      "TO(6)",
       "KC_NO",
       "KC_NO",
       "KC_NO",
@@ -404,10 +404,10 @@
       "KC_SLSH",
       "KC_RCTL",
       "KC_LGUI",
-      "LT(7,KC_NO)",
+      "MO(7)",
       "KC_LALT",
       "KC_BSPC",
-      "LT(7,KC_NO)",
+      "MO(7)",
       "KC_SPC",
       "KC_ENT",
       "KC_ENT"
@@ -467,13 +467,13 @@
       "KC_DEL",
       "ANY(SNP_TOG)",
       "KC_ENT",
-      "LT(8,KC_NO)",
-      "LT(8,KC_NO)"
+      "MO(8)",
+      "MO(8)"
     ],
     [
       "KC_NO",
-      "TG(3)",
-      "TG(0)",
+      "TO(3)",
+      "TO(0)",
       "KC_NO",
       "KC_NO",
       "KC_NO",
